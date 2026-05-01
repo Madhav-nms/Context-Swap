@@ -13,9 +13,9 @@ So I wrote the smallest thing I could that demonstrates the real mechanics. If y
 ## What's in the box
  
 ```
-.s           The whole kernel: vector table, handlers, tasks, stacks
-.ld          Tells the linker where flash and RAM live
-Makefile      Build, run in QEMU, attach GDB
+.s       : The whole kernel: vector table, handlers, tasks, stacks
+.ld      : Tells the linker where flash and RAM live
+Makefile : Build, run in QEMU, attach GDB
 ```
  
 ## How it works (the short version)
